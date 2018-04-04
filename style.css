@@ -1,0 +1,84 @@
+html, body, h1, h2, h3, h4, p, div {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font: inherit;
+  font-size: 100%;
+}
+h1 {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
+}
+h2 {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  text-align: center;
+  color: #ffffff;
+  width: 700px;
+  margin: 0 auto;
+}
+h2 strong {
+  font-weight: 400;
+}
+
+.header {
+  background-color: #999999;
+}
+h3 {
+  font-size: 28px;
+  font-weight: normal;
+  text-align: center;
+  border-bottom: 3px solid #555555;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  margin: 20px 0 20px 0;
+}
+p {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+}
+.tagline {
+  background-color: #000000;
+  padding: 20px 0 20px 0;
+}
+
+.projects {
+  background: url("images/weather.png") repeat fixed center;
+  width: 700px;
+  margin: 0 auto;
+}
+.projects h3 {
+  color: white;
+  background-color: #000000;
+  border: none;
+}
+
+.projects ul {
+  width: 300px;
+  margin: auto;
+  list-style-type: none;
+}
+.projects ul li {
+  display: inline;
+  width: 150px;
+}
+.projects ul li img {
+  display: block;
+  width: 200px;
+  height: 150px;
+}
+.badges ul {
+  list-style-type: none;
+}
+.badges ul li img {
+  display: inline;
+  margin-bottom: 50px;
+}
+.footer {
+  text-align: center;
+  display: block;
+  background: green;
+}
